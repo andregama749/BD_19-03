@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10sp"
+    android:orientation="horizontal"
+    android:padding="16sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nomeSer"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/horas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horas"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mecânico"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>
